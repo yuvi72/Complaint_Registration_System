@@ -6,7 +6,7 @@
 String userid = request.getParameter("userid");
 String password = request.getParameter("password");
 Class.forName("com.mysql.jdbc.Driver");
-Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "1234");
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:8080/user", "root", "fastyadaa");
 Statement st = con.createStatement();
 int i = st.executeUpdate("INSERT INTO users values('" +userid+ "','" +password+ "')");
 if(i == 1) {

@@ -1,2 +1,2 @@
 # Compplaint_Registration_System
-A website for the users to report their complain an track its status
+A website for the users to register the report of their complaint and track its status
